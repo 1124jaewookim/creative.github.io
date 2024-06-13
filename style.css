@@ -69,6 +69,22 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: rgb(58, 106, 239);
 }
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-box.horizontal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Adjust the gap between images as needed */
+}
+
+.box {
+  text-align: center;
+}
 /* --------------------------------------------------------- */
 .max-width {
   max-width: 1300px;
@@ -274,16 +290,15 @@ section .title::after {
 
 /* about section styling */
 .about .title::after {
-  background: #111;
-  content: "project illustration";
+  content: "what is this";
 }
 .about .about-content .left {
   width: 45%;
 }
 .about .about-content .left img {
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
+  height: 475px;
+  width: 475px;
+  object-fit: contain;
   border-radius: 6px;
 }
 .about .about-content .right {
@@ -330,7 +345,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
   background: #111;
-  content: "what i like";
+  content: "what we offer";
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -340,6 +355,7 @@ section .title::after {
   padding: 50px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-top: 15px;
 }
 .services .serv-content .card:hover {
   background: rgb(58, 106, 239);
@@ -367,7 +383,7 @@ section .title::after {
 /* skills section styling */
 
 .skills .title::after {
-  content: "what i did";
+  content: "playground";
 }
 .skills .skills-content .column {
   width: calc(50% - 30px);
@@ -446,7 +462,7 @@ section .title::after {
 
 /* teams section styling */
 .teams .title::after {
-  content: "who with me";
+  content: "who with us";
 }
 .teams .carousel .card {
   background: #222;
