@@ -26,65 +26,6 @@ html {
   background: #555;
 }
 
-/* all similar content styling codes */
-section {
-  padding: 100px 0;
-}
-.cctv-container {
-  background-color: rgba(255, 255, 255, 0.85);
-  padding: 30px 50px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  max-width: 500px;
-  width: 100%;
-}
-input[type="file"] {
-  display: none; /* Hide the default file input */
-}
-.custom-file-upload {
-  display: inline-block;
-  padding: 10px 20px;
-  border: 2px rgb(58, 106, 239);
-  border-radius: 5px;
-  background-color: #ecf0f1;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  margin-bottom: 10px;
-}
-.custom-file-upload:hover {
-  background-color: #dcdde1;
-}
-input[type="submit"] {
-  background-color: #dcdde1;
-  color: rgb(1, 1, 1);
-  border: none;
-  padding: 12px 24px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s;
-  margin-top: 10px;
-}
-input[type="submit"]:hover {
-  background-color: rgb(58, 106, 239);
-}
-.image-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.image-box.horizontal {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px; /* Adjust the gap between images as needed */
-}
-
-.box {
-  text-align: center;
-}
 /* --------------------------------------------------------- */
 .max-width {
   max-width: 1300px;
