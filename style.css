@@ -25,7 +25,22 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+.image-box.horizontal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Adjust the gap between images as needed */
+}
+
+.box {
+  text-align: center;
+}
 /* --------------------------------------------------------- */
 .max-width {
   max-width: 1300px;
